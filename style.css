@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#div-affichage{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+}
+.cadre{
+    height: 100px;
+    width: 200px;
+    background-color: greenyellow;
+    border: solid 2px green;
+    border-radius: 10px;
+    font-size: 16px;
+    display: none;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.cadre2{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(12, 186, 240);
+    border: solid 2px rgb(7, 14, 120);
+    border-radius: 10px;
+    font-size: 16px;
+    display: none;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.cadre3{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(238, 238, 63);
+    border: solid 2px yellow;
+    border-radius: 10px;
+    font-size: 16px;
+    display: none;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.cadre4{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(241, 142, 142);
+    border: solid 2px rgb(99, 10, 10);
+    border-radius: 10px;
+    font-size: 16px;
+    display: none;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s ease, transform 1s ease;
+
+}
+.class{
+    margin-top: 30px;
+text-align: center;
+}
